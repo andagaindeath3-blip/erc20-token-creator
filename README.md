@@ -49,12 +49,19 @@ ERC20 Token Creator is an open-source dApp that allows users to deploy their own
 Clone the repository and install dependencies:
 
 ```sh
-git clone https://github.com/yourusername/erc20-token-creator.git
+git clone https://github.com/XerxesCoder/erc20-token-creator.git
 cd erc20-token-creator
 npm install
 ```
 
+
+
 ## Run Locally
+Create a `.env` file in the project root and add the following:
+
+```sh
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_project_id
+```
 Start the development server:
 
 ```sh
