@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ERC20 Token Creator
 
-## Getting Started
+## Overview
+ERC20 Token Creator is an open-source dApp that allows users to deploy their own ERC20 tokens seamlessly. Connect your wallet, configure token parameters, and deploy on various supported networks in just a few clicks.
 
-First, run the development server:
+## Demo
+[Live Demo](#) - *Coming Soon*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## Features
+- **Wallet Connection:** Supports multiple wallets via RainbowKit.
+- **Token Deployment:** Easily create and deploy ERC20 tokens.
+- **Multi-Network Support:** Deploy tokens on multiple EVM-compatible blockchains.
+- **Open-Source & Self-Hosted:** Fork the project and run it locally.
+
+## Supported Networks
+- Ethereum: Mainnet, Sepolia
+- Arbitrum: Mainnet, Sepolia
+- Base: Mainnet, Sepolia
+- Polygon: Mainnet, Mumbai, zkEVM
+- BSC: Mainnet, Testnet
+- Avalanche: Mainnet, Fuji
+- Cronos: Mainnet, Testnet
+- Optimism: Mainnet, Sepolia
+- Sonic: Mainnet, Testnet
+- Flare: Mainnet, Testnet
+- Canto: Mainnet
+
+
+
+
+
+## How to Deploy a Token
+1. Connect your wallet.
+2. Enter token details (name, symbol, supply, decimals, etc.).
+3. Choose the desired network.
+4. Deploy and confirm the transaction.
+
+## Technologies Used
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Wagmi](https://wagmi.sh/)
+- [Viem](https://viem.sh/)
+- [RainbowKit](https://www.rainbowkit.com/)
+- [ShadCN](https://ui.shadcn.com/)
+- [Lucide Icons](https://lucide.dev/)
+
+## Installation
+Clone the repository and install dependencies:
+
+```sh
+git clone https://github.com/yourusername/erc20-token-creator.git
+cd erc20-token-creator
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run Locally
+Start the development server:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+npm run dev
+```
+Then, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## License
+This project is licensed under the MIT License.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
+For any questions and inquiries:
+- **Telegram:** [@xerxescoder](https://t.me/xerxescoder)
+- **Telegram Channel:** [@xerxescodes](https://t.me/xerxescodes)
+- **Email:** [xerxescode@gmail.com](mailto:xerxescode@gmail.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
